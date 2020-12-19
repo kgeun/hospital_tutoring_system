@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/button_submit_dragtest2activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="SUBMIT" />
+
+    <Button
+        android:id="@+id/button_next_dragtest2activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_submit_dragtest2activity"
+        android:layout_toEndOf="@+id/button_submit_dragtest2activity"
+        android:text="PREV" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_canvas_dragtest2activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/view_element1_dragtest2activity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/view_element2_dragtest2activity"
+        android:layout_marginRight="20dp"
+        android:layout_toStartOf="@+id/view_element2_dragtest2activity"
+        android:background="@android:color/holo_red_dark" />
+
+    <ImageView
+        android:id="@+id/view_element2_dragtest2activity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/view_element3_dragtest2activity"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/view_element3_dragtest2activity"
+        android:background="@android:color/holo_orange_dark" />
+
+    <ImageView
+        android:id="@+id/view_element3_dragtest2activity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_green_dark" />
+
+    <ImageView
+        android:id="@+id/view_element4_dragtest2activity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/view_element3_dragtest2activity"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@+id/view_element3_dragtest2activity"
+        android:background="@android:color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/view_element5_dragtest2activity"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/view_element4_dragtest2activity"
+        android:layout_toEndOf="@+id/view_element4_dragtest2activity"
+        android:background="@android:color/holo_blue_dark" />
+
+</RelativeLayout>
+</layout>

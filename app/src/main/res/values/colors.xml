@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#60A3EE</color>
+    <color name="colorPrimaryDark">#3083AA</color>
+    <color name="colorAccent">#ACE895</color>
+    <color name="colorInstructionText">#232323</color>
+    <color name="colorTextEditText">#12213F</color>
+    <color name="colorEditTextIndicator">#19000000</color>
+    <color name="colorBackgroundCourses">#FFF2F4F5</color>
+    <color name="colorPatientQuestionHighlight">#FFFFD535</color>
+    <color name="colorQuestionBackground">#FF3E606F</color>
+</resources>

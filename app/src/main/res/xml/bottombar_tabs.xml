@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home"
+        title="Home" />
+    <tab
+        id="@+id/tab_courses"
+        icon="@drawable/ic_library_books"
+        title="Courses" />
+    <tab
+        id="@+id/tab_user"
+        icon="@drawable/ic_person"
+        title="User" />
+</tabs>
